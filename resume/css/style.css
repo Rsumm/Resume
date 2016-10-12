@@ -1,22 +1,49 @@
 body {
 	font-family: helvetica;
-	background: #E5E2E1;
-	color: #123B67;
+	background: linear-gradient(white, #5D93CD);
+	color: black;
 }
 h1 {
 	color: #1C6DC2
 }
+h2{
+	font-weight: bold;
+	color: blue;
+	text-decoration: underline;
+}
 
 .image{
-
+	width: 43%;
+	display: inline-block;
+	border-right: solid;
+	padding-left: 40px;
 }
 .contact{
-	
+	width: 30%;
+	display: inline-block;
+	font color: white;
+	padding-left: 30px;
 }
 div {
-	padding: 70px;
+	padding: 30px;
 	padding-right: 50px;
 }
-.summary{
-	
+.Summary{
+	text-align: center;
+	border-top: dotted;
+	border-bottom: dotted;
+}
+.experience{
+	width: 43%;
+	display: inline-block;
+	border-right: dotted;
+
+}
+.skills{
+	display:inline-block;
+	height: 50px;
+}
+.edu{
+	text-align: center;
+	border-top: dashed;
 }
